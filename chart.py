@@ -9,6 +9,9 @@ class Chart:
         self.symbol = symbol
         self.begin = datetime.strptime(startDate, '%Y-%m-%d')
         self.end = datetime.strptime(startDate, '%Y-%m-%d')
+        self.plot = None 
+
+    def get_chart
         
  
 
