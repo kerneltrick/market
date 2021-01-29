@@ -14,5 +14,4 @@ def get_historical_prices(symbol = 'NVDA', startDate = '2020-11-01', endDate = '
     """
     stock = yf.Ticker(symbol)
     priceHistory = stock.history(interval = granularity, start = startDate, end = endDate)
-    priceHistory.to_csv('/home/mark/docs/projects/market/data/historical_prices.csv')
     return priceHistory
