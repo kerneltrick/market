@@ -11,8 +11,6 @@ from plot_volume import plot_volume
 from get_moving_averages import *
 from get_historical_prices import *
 
-
-
 class Chart:
 
     def __init__(self, symbol, startDate, endDate, granularity):
